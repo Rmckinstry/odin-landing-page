@@ -121,4 +121,34 @@ h1{
     border-radius: 16px;
 }
 
+.testimonial{
+    padding-top: 125px;
+    background-color: #E5E7EB;
+}
+
+.quote, .quote-author{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.quote{
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    line-height: 60px;
+}
+
+.quote-author{
+    font-size: 26px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: right;
+}
+
+.sign-up{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 
