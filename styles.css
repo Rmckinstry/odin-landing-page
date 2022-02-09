@@ -30,7 +30,7 @@ button{
     padding-bottom: 125px;
 }
 
-.header, .description{
+.header, .description, .footer{
     background-color: #1F2937;
 }
 
@@ -151,7 +151,7 @@ button{
 .sign-up{
     margin: 100px 300px;
     background-color: #3882F6;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .sign-up-container{
@@ -176,6 +176,14 @@ button{
 
 .sign-up-right button{
     border: solid #F9FAF8;
+}
+
+.footer{
+    padding: 24px;
+}
+.footer-text{
+    text-align: center;
+    color: #F9FAF8;
 }
 
 
