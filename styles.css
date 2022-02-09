@@ -5,7 +5,7 @@ body{
 
 h1{
     font-size: 56px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
     margin: 0px;
 }
@@ -18,7 +18,7 @@ h1{
 .section{
     padding-right: 300px;
     padding-left: 300px;
-    padding-bottom: 150px;
+    padding-bottom: 125px;
 }
 
 .header, .description{
@@ -53,7 +53,7 @@ h1{
 .description{
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items:flex-end;
     gap: 40px;
 }
 
@@ -77,16 +77,48 @@ h1{
 
 .img-rectangle{
     width: 650px;
-    height: 250px;
+    height: 275px;
 
-    background-color: #6b737a;
+    background-color: #7c848d;
 }
 
 .img-rectangle p{
     color: #E5E7EB;
     font-size: 18px;
     text-align: center;
-    line-height: 250px;
+    line-height: 275px;
+}
+
+.main-content{
+    padding-top: 50px;
+}
+.main-content h2{
+    text-align: center;
+    padding-bottom: 24px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.main-content-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.main-item{
+    width: 200px;
+}
+.main-item p{
+    text-align: center;
+}
+.info-img{
+    width: 200px;
+    height: 200px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 16px;
 }
 
 
